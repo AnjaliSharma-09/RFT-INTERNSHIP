@@ -1,7 +1,3 @@
-# ================================
-#        ADVANCED LOG ANALYZER
-# ================================
-
 # Sample Logs
 logs = [
     "ERROR Disk Full",
@@ -37,11 +33,6 @@ for log in logs:
         log_count[log_type] += 1
     else:
         log_count[log_type] = 1
-
-
-# ================================
-#        DISPLAY RESULTS
-# ================================
 
 print("=" * 40)
 print("         LOG ANALYSIS REPORT")
