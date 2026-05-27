@@ -1,47 +1,106 @@
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 
-# Load dataset
-df = pd.read_csv("customer_data.csv")
+# STEP 1: CREATE SAMPLE DATASET
 
+np.random.seed(42)
+
+customer_data = {
+    "Customer_ID": range(1, 101),
+    "Age": np.random.randint(18, 65, 100),
+    "Spending": np.random.randint(100, 5000, 100),
+    "Visits": np.random.randint(1, 30, 100)
+}
+
+df = pd.DataFrame(customer_data)
+
+# Save dataset to CSV
+df.to_csv("customer_segmentation.csv", index=False)
+
+print("Dataset Created Successfully!\n")
 print(df.head())
 
-# Create segments
-def spending_category(spending):
-    if spending >= 7000:
+# STEP 2: CUSTOMER SEGMENTATION
+
+# Create Spending Categories
+def spending_category(amount):
+    if amount >= 3500:
         return "High"
-    elif spending >= 4000:
+    elif amount >= 1500:
         return "Medium"
     else:
         return "Low"
 
 df["Segment"] = df["Spending"].apply(spending_category)
 
-# High-value customers
-high_value = df[(df["Spending"] >= 7000) & (df["Visits"] >= 10)]
+print("\nCustomer Segments:")
+print(df["Segment"].value_counts())
 
-print("\nHigh Value Customers:")
-print(high_value)
+# STEP 3: IDENTIFY CUSTOMER TYPES
 
-# Low engagement customers
+# High-Value Customers
+high_value = df[df["Spending"] >= 3500]
+
+# Low-Engagement Users
 low_engagement = df[df["Visits"] <= 5]
 
-print("\nLow Engagement Customers:")
-print(low_engagement)
+print("\nHigh-Value Customers:")
+print(high_value.head())
 
-# Histogram
-plt.hist(df["Spending"], bins=5)
+print("\nLow-Engagement Users:")
+print(low_engagement.head())
+
+# STEP 4: VISUALIZATION
+
+plt.figure(figsize=(15, 5))
+
+# Spending Distribution
+plt.subplot(1, 2, 1)
+sns.histplot(df["Spending"], bins=10, kde=True)
 plt.title("Spending Distribution")
 plt.xlabel("Spending")
-plt.ylabel("Customers")
+plt.ylabel("Count")
+
+# Customer Categories
+plt.subplot(1, 2, 2)
+sns.countplot(x="Segment", data=df)
+plt.title("Customer Categories")
+
+plt.tight_layout()
 plt.show()
 
-# Pie Chart
-segment_counts = df["Segment"].value_counts()
+# STEP 5: BUSINESS STRATEGIES
 
-plt.pie(segment_counts,
-        labels=segment_counts.index,
-        autopct='%1.1f%%')
+print("\n========== BUSINESS STRATEGIES ==========")
 
-plt.title("Customer Segments")
-plt.show()
+print("""
+1. HIGH-VALUE CUSTOMERS
+   - Provide premium membership offers
+   - Give exclusive discounts and rewards
+   - Personalized marketing campaigns
+
+2. MEDIUM-SPENDING CUSTOMERS
+   - Encourage more purchases with combo offers
+   - Introduce loyalty programs
+
+3. LOW-SPENDING CUSTOMERS
+   - Offer first-time coupons
+   - Run engagement campaigns
+
+4. LOW-ENGAGEMENT USERS
+   - Send reminder emails/SMS
+   - Give visit-based incentives
+""")
+
+# STEP 6: SUMMARY REPORT
+
+print("\n========== SUMMARY REPORT ==========")
+
+print(f"Total Customers: {len(df)}")
+print(f"High-Value Customers: {len(high_value)}")
+print(f"Low-Engagement Users: {len(low_engagement)}")
+
+print("\nSegment Distribution:")
+print(df["Segment"].value_counts())
