@@ -1,0 +1,21 @@
+Order_ID,Date,Region,Category,Product,Sales,Profit,Quantity
+1001,2025-01-01,North,Electronics,Laptop,55000,12000,2
+1002,2025-01-02,South,Furniture,Chair,12000,3000,4
+1003,2025-01-03,East,Clothing,T-Shirt,5000,1200,10
+1004,2025-01-04,West,Electronics,Mobile,30000,8000,3
+1005,2025-01-05,North,Furniture,Table,15000,3500,2
+1006,2025-01-06,South,Electronics,Headphones,4000,900,5
+1007,2025-01-07,East,Clothing,Jeans,7000,2000,6
+1008,2025-01-08,West,Furniture,Sofa,45000,10000,1
+1009,2025-01-09,North,Electronics,Monitor,18000,4000,2
+1010,2025-01-10,South,Clothing,Jacket,9000,2500,3
+1011,2025-01-11,East,Electronics,Keyboard,2500,700,7
+1012,2025-01-12,West,Furniture,Bed,60000,15000,1
+1013,2025-01-13,North,Clothing,Shoes,8000,1800,5
+1014,2025-01-14,South,Electronics,Tablet,22000,5000,2
+1015,2025-01-15,East,Furniture,Desk,14000,3200,2
+1016,2025-01-16,West,Clothing,Hoodie,6500,1600,4
+1017,2025-01-17,North,Electronics,Smart Watch,12000,2800,3
+1018,2025-01-18,South,Furniture,Cupboard,35000,9000,1
+1019,2025-01-19,East,Clothing,Cap,2000,500,8
+1020,2025-01-20,West,Electronics,Camera,28000,6500,2
