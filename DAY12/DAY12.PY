@@ -26,6 +26,6 @@ plt.xticks(x, students)
 
 # Legend
 plt.legend()
-
 # Show Plot
 plt.show()
+

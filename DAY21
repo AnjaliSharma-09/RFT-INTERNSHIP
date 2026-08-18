@@ -1,0 +1,82 @@
+# 1. Check whether a number is prime
+def is_prime(num):
+    if num <= 1:
+        return False
+
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+
+    return True
+
+
+number = int(input("Enter a number to check prime: "))
+
+if is_prime(number):
+    print(number, "is a prime number.")
+else:
+    print(number, "is not a prime number.")
+
+
+print("\n--------------------------------")
+# 2. Find largest number using *args
+def find_largest(*args):
+    if not args:
+        return None
+
+    largest = args[0]
+
+    for num in args:
+        if num > largest:
+            largest = num
+
+    return largest
+
+
+result = find_largest(10, 25, 7, 42, 18, 30)
+
+print("Numbers: 10, 25, 7, 42, 18, 30")
+print("Largest number:", result)
+
+
+print("\n--------------------------------")
+# 3. Student information using **kwargs
+def student_info(**kwargs):
+    print("Student Information:")
+
+    for key, value in kwargs.items():
+        print(key.capitalize() + ":", value)
+
+
+student_info(
+    name="Anjali Sharma",
+    age=20,
+    course="CSE (AI & ML)",
+    semester=4,
+    college="UIET Kurukshetra"
+)
+
+
+print("\n--------------------------------")
+# 4. Calculate statistics
+def calculate_statistics(numbers):
+    if not numbers:
+        return None
+
+    total = sum(numbers)
+    maximum = max(numbers)
+    minimum = min(numbers)
+    average = total / len(numbers)
+
+    return maximum, minimum, average, total
+
+
+numbers = [10, 20, 30, 40, 50]
+
+maximum, minimum, average, total = calculate_statistics(numbers)
+
+print("List:", numbers)
+print("Maximum:", maximum)
+print("Minimum:", minimum)
+print("Average:", average)
+print("Sum:", total)

@@ -1,8 +1,3 @@
-# =============================
-# OPEN DATASET CAPSTONE PROJECT
-# SALES DATA ANALYSIS
-# =============================
-
 # Import Libraries
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -12,9 +7,7 @@ import seaborn as sns
 file_path = "sales_data.csv"
 df = pd.read_csv(file_path)
 
-# =============================
 # 1. DATA CLEANING
-# =============================
 
 print("\n===== FIRST 5 ROWS =====")
 print(df.head())
@@ -34,10 +27,7 @@ df['Date'] = pd.to_datetime(df['Date'])
 print("\n===== CLEANED DATA =====")
 print(df.head())
 
-# =============================
 # 2. DATA ANALYSIS
-# =============================
-
 # Total Sales
 total_sales = df['Sales'].sum()
 print("\nTotal Sales:", total_sales)
@@ -65,9 +55,7 @@ top_products = df.groupby('Product')['Sales'].sum().sort_values(ascending=False)
 print("\n===== TOP SELLING PRODUCTS =====")
 print(top_products)
 
-# =============================
 # 3. DATA VISUALIZATION
-# =============================
 
 sns.set_style("whitegrid")
 
