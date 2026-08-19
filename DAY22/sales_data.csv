@@ -1,0 +1,16 @@
+Date,Customer,Product,Category,Quantity,Revenue
+2026-01-05,Rahul,Laptop,Electronics,1,55000
+2026-01-07,Priya,Mouse,Electronics,2,1200
+2026-01-10,Anjali,Chair,Furniture,1,4500
+2026-01-12,Rohit,Keyboard,Electronics,2,3000
+2026-01-15,Neha,Table,Furniture,1,7000
+2026-01-18,Rahul,Monitor,Electronics,1,15000
+2026-01-20,Priya,Laptop,Electronics,1,55000
+2026-01-22,Anjali,Desk,Furniture,1,8500
+2026-01-25,Rohit,Mouse,Electronics,3,1800
+2026-01-28,Neha,Printer,Electronics,1,12000
+2026-02-02,Rahul,Keyboard,Electronics,1,1500
+2026-02-05,Priya,Chair,Furniture,2,9000
+2026-02-08,Anjali,Laptop,Electronics,1,55000
+2026-02-10,Rohit,Monitor,Electronics,2,30000
+2026-02-15,Neha,Desk,Furniture,1,8500
