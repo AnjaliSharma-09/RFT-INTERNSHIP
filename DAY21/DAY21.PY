@@ -1,3 +1,6 @@
+# PROJECT 21 - FUNCTIONS - INTERMEDIATE
+
+
 # 1. Check whether a number is prime
 def is_prime(num):
     if num <= 1:
@@ -19,6 +22,8 @@ else:
 
 
 print("\n--------------------------------")
+
+
 # 2. Find largest number using *args
 def find_largest(*args):
     if not args:
@@ -40,6 +45,8 @@ print("Largest number:", result)
 
 
 print("\n--------------------------------")
+
+
 # 3. Student information using **kwargs
 def student_info(**kwargs):
     print("Student Information:")
@@ -58,6 +65,8 @@ student_info(
 
 
 print("\n--------------------------------")
+
+
 # 4. Calculate statistics
 def calculate_statistics(numbers):
     if not numbers:
