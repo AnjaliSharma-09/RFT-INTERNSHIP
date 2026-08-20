@@ -1,0 +1,20 @@
+Employee_ID,Employee_Name,Department,Performance_Score,Attendance,Performance_Rank,Attendance_Status,Department_Average_Performance
+E010,Muskan Jain,CSE(AIML),97,99.0,1,Good,93.0
+E018,Tanya Verma,ECE,96,97.0,2,Good,88.0
+E005,Neha Gupta,CSE(AIML),95,98.0,3,Good,93.0
+E015,Varun Gupta,Mechanical,94,95.0,4,Good,87.0
+E001,Anjali Sharma,CSE,92,96.0,5,Good,82.25
+E004,Aman Verma,Mechanical,91,94.0,6,Good,87.0
+E012,Riya Kapoor,ECE,90,93.0,7,Good,88.0
+E014,Megha Sharma,Biotech,89,86.0,8,Good,86.5
+E007,Simran Kaur,ECE,88,91.0,9,Good,88.0
+E016,Shivani Rao,CSE(AIML),87,89.0,10,Good,93.0
+E002,Rahul Kumar,CSE,85,88.0,11,Good,82.25
+E009,Karan Singh,Biotech,84,76.0,12,Good,86.5
+E013,Dev Kumar,Civil,81,79.0,13,Good,73.67
+E017,Aditya Singh,CSE,79,74.0,14,Below 75%,82.25
+E003,Priya Singh,ECE,78,72.0,15,Below 75%,88.0
+E008,Arjun Mehta,Mechanical,76,82.0,16,Good,87.0
+E011,Harsh Yadav,CSE,73,68.0,17,Below 75%,82.25
+E019,Nikhil Jain,Civil,72,69.0,18,Below 75%,73.67
+E006,Rohit Sharma,Civil,68,70.0,19,Below 75%,73.67

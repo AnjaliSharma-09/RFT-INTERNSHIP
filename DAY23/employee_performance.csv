@@ -1,0 +1,21 @@
+Employee_ID,Employee_Name,Department,Performance_Score,Attendance
+E001,Anjali Sharma,CSE,92,96
+E002,Rahul Kumar,CSE,85,88
+E003,Priya Singh,ECE,78,72
+E004,Aman Verma,Mechanical,91,94
+E005,Neha Gupta,CSE(AIML),95,98
+E006,Rohit Sharma,Civil,68,70
+E007,Simran Kaur,ECE,88,91
+E008,Arjun Mehta,Mechanical,76,82
+E009,Karan Singh,Biotech,84,76
+E010,Muskan Jain,CSE(AIML),97,99
+E011,Harsh Yadav,CSE,73,68
+E012,Riya Kapoor,ECE,90,93
+E013,Dev Kumar,Civil,81,79
+E014,Megha Sharma,Biotech,89,86
+E015,Varun Gupta,Mechanical,94,95
+E016,Shivani Rao,CSE(AIML),87,89
+E017,Aditya Singh,CSE,79,74
+E018,Tanya Verma,ECE,96,97
+E019,Nikhil Jain,Civil,72,69
+E020,Pooja Sharma,Biotech,91,
