@@ -1,0 +1,4 @@
+TransactionID,AccountID,Date,Category,Amount,Merchant
+T001,A101,2026-08-01,Shopping,2500,Amazon
+T002,A102,2026-08-01,Food,450,Swiggy
+T003,A101,2026-08-02,Electronics,75000,XYZ Store

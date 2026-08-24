@@ -1,0 +1,2 @@
+TransactionID,AccountID,Date,Category,Amount,Merchant,RiskScore,IsDuplicate,FrequentAccount,RiskLevel
+T003,A101,2026-08-02,Electronics,75000,XYZ Store,40,False,False,Medium Risk
