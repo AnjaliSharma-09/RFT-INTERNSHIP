@@ -1,0 +1,17 @@
+Name: Anjali Sharma
+
+Education:
+B.Tech in Computer Science and Engineering
+Kurukshetra University
+
+Skills:
+Python, Machine Learning, Deep Learning, Pandas, NumPy,
+Scikit-learn, SQL, Git, Streamlit
+
+Experience:
+2 years of experience as a Machine Learning Intern.
+
+Projects:
+Fraud Detection System
+Weather Analytics System
+AI Resume Screening System

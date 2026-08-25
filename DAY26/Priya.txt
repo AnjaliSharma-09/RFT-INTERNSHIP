@@ -1,0 +1,16 @@
+Name: Priya Verma
+
+Education:
+M.Tech in Computer Science
+
+Skills:
+Python, Machine Learning, Deep Learning, TensorFlow,
+PyTorch, NLP, Pandas, NumPy, SQL
+
+Experience:
+4 years experience as a Data Scientist.
+
+Projects:
+Customer Churn Prediction
+NLP Chatbot
+Image Classification
