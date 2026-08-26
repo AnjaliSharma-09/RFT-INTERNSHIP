@@ -1,0 +1,11 @@
+Post_ID,User,Date,Time,Hashtags,Category,Likes,Comments,Shares,Text
+1,Alice,2026-08-20,09:15,#AI #Technology,Technology,120,25,15,"AI is changing the future"
+2,Bob,2026-08-20,12:30,#Python #Coding,Education,90,18,10,"Learning Python is amazing"
+3,Charlie,2026-08-20,18:45,#Travel #Vacation,Travel,200,35,30,"Beautiful vacation destination"
+4,Alice,2026-08-21,10:20,#AI #MachineLearning,Technology,180,40,25,"Machine learning is exciting"
+5,David,2026-08-21,14:10,#Fitness #Health,Fitness,110,20,18,"Great workout today"
+6,Bob,2026-08-21,19:30,#Python #AI,Coding,150,30,20,"Python makes AI development easier"
+7,Charlie,2026-08-22,20:00,#Travel #Adventure,Travel,250,45,35,"Amazing adventure today"
+8,Alice,2026-08-22,11:00,#Technology #AI,Technology,220,50,40,"Technology is evolving rapidly"
+9,David,2026-08-22,08:30,#Fitness #Workout,Fitness,100,15,12,"Feeling great after workout"
+10,Bob,2026-08-23,16:45,#Coding #Python,Coding,175,32,25,"Coding is fun and rewarding"
